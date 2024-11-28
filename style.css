@@ -59,3 +59,37 @@ h1{
     color: white;
     font-size: 40px;
 }
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+span{
+    color: white;
+    font-style: italic;
+    font-weight: bold;
+    font-size: small;
+}
+.contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+ion-icon{
+    font-size: 25px;
+    color: rgb(134, 87, 153);
+}
+
+@media (max-width:494px) {
+    #root{
+        width:80%;
+    }
+
+    button{
+        width:50px;
+    }
+    
+}
